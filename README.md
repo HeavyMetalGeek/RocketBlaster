@@ -1,6 +1,4 @@
-# RocketBlaster
-
-## _Air powered rocket launcher_
+# RocketBlaster - Air Powered Rocket Launcher
 
 <img src="images/RocketBlaster_v1.jpg" width=400>
 
