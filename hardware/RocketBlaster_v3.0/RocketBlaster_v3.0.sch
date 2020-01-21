@@ -743,4 +743,8 @@ F 3 "" H 2750 2900 50  0001 C CNN
 	1    2750 2900
 	1    0    0    -1  
 $EndComp
+Text Notes 10600 7650 0    50   ~ 0
+NONE
+Text Notes 7400 7500 0    50   ~ 0
+RocketBlaster v3.0
 $EndSCHEMATC
