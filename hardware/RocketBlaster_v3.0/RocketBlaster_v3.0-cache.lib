@@ -1,0 +1,313 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Generic_Conn_02x03_Odd_Even
+#
+DEF Connector_Generic_Conn_02x03_Odd_Even J 0 40 Y N 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "Connector_Generic_Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 150 -150 1 1 10 f
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 300 100 150 L 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 300 0 150 L 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 300 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DFR0299_DFR0299
+#
+DEF DFR0299_DFR0299 U 0 40 Y Y 1 L N
+F0 "U" -400 730 50 H V L BNN
+F1 "DFR0299_DFR0299" -400 -900 50 H V L BNN
+F2 "MODULE_DFR0299" 0 0 50 H I L BNN
+F3 "Dfplayer - a Mini Mp3 Player" 0 0 50 H I L BNN
+F4 "DFR0299" 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "None" 0 0 50 H I L BNN
+F7 "Unavailable" 0 0 50 H I L BNN
+F8 "DFRobot" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -400 -800 -400 700 N
+P 2 0 0 10 -400 700 400 700 N
+P 2 0 0 10 400 -800 -400 -800 N
+P 2 0 0 10 400 700 400 -800 N
+X VCC 1 600 600 200 L 40 40 0 0 W
+X GND 10 600 -700 200 L 40 40 0 0 W
+X IO2 11 600 -300 200 L 40 40 0 0 B
+X ADKEY1 12 -600 -100 200 R 40 40 0 0 I
+X ADKEY2 13 -600 -200 200 R 40 40 0 0 I
+X USB+ 14 -600 200 200 R 40 40 0 0 I
+X USB- 15 -600 100 200 R 40 40 0 0 I
+X BUSY 16 -600 400 200 R 40 40 0 0 I
+X RX 2 600 0 200 L 40 40 0 0 I
+X TX 3 600 100 200 L 40 40 0 0 O
+X DAC_R 4 600 400 200 L 40 40 0 0 O
+X DAC_L 5 600 300 200 L 40 40 0 0 O
+X SPK1 6 -600 -400 200 R 40 40 0 0 P
+X GND 7 600 -700 200 L 40 40 0 0 W
+X SPK2 8 -600 -500 200 R 40 40 0 0 P
+X IO1 9 600 -200 200 L 40 40 0 0 B
+ENDDRAW
+ENDDEF
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_US
+#
+DEF Device_R_US R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "Device_R_US" -100 0 50 V V C CNN
+F2 "" 40 -10 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -90 0 -100 N
+P 2 0 1 0 0 90 0 100 N
+P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
+P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
+P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LM7805MPX_NOPB_LM7805MPX_NOPB
+#
+DEF LM7805MPX_NOPB_LM7805MPX_NOPB U 0 10 Y Y 1 L N
+F0 "U" 900 400 60 H V C CNN
+F1 "LM7805MPX_NOPB_LM7805MPX_NOPB" 900 300 60 H V C CNN
+F2 "DCY4" 900 240 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ DCY4
+ DCY4-M
+ DCY4-L
+$ENDFPLIST
+DRAW
+P 2 1 1 5 300 -300 1500 -300 N
+P 2 1 1 5 300 200 300 -300 N
+P 2 1 1 5 1500 -300 1500 200 N
+P 2 1 1 5 1500 200 300 200 N
+X INPUT 1 0 0 300 R 59 59 1 1 I
+X GND 2 0 -100 300 R 59 59 1 1 W
+X OUTPUT 3 1800 -100 300 L 59 59 1 1 O
+X GND 4 1800 0 300 L 59 59 1 1 W
+ENDDRAW
+ENDDEF
+#
+# dk_Diodes-Rectifiers-Single_S1G
+#
+DEF dk_Diodes-Rectifiers-Single_S1G D 0 0 N N 1 F N
+F0 "D" 0 100 60 H V C CNN
+F1 "dk_Diodes-Rectifiers-Single_S1G" 0 -100 60 H V C CNN
+F2 "digikey-footprints:DO-214AC" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/S1M-D.pdf" 200 300 60 H I L CNN
+F4 "S1GFSCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "S1G" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Diodes - Rectifiers - Single" 200 700 60 H I L CNN "Family"
+F8 "https://www.onsemi.com/pub/Collateral/S1M-D.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-semiconductor/S1G/S1GFSCT-ND/965720" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "DIODE GEN PURP 400V 1A SMA" 200 1000 60 H I L CNN "Description"
+F11 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 50 50 50 -50 N
+P 4 0 1 0 -50 50 -50 -50 50 0 -50 50 F
+X ~ A -200 0 150 R 50 50 1 1 P
+X ~ K 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Embedded-Microcontrollers_ATMEGA328PB-AU
+#
+DEF dk_Embedded-Microcontrollers_ATMEGA328PB-AU U 0 40 Y Y 1 F N
+F0 "U" -400 550 60 H V L CNN
+F1 "dk_Embedded-Microcontrollers_ATMEGA328PB-AU" -100 -300 60 V V C CNN
+F2 "digikey-footprints:TQFP-32_7x7mm" 200 200 60 H I L CNN
+F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589666" 200 300 60 H I L CNN
+F4 "ATMEGA328PB-AU-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "ATMEGA328PB-AU" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "Embedded - Microcontrollers" 200 700 60 H I L CNN "Family"
+F8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589666" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/microchip-technology/ATMEGA328PB-AU/ATMEGA328PB-AU-ND/5638812" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC MCU 8BIT 32KB FLASH 32TQFP" 200 1000 60 H I L CNN "Description"
+F11 "Microchip Technology" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -400 500 200 -1300 0 1 0 f
+X PD3 1 300 -700 100 L 50 50 1 1 B
+X PD6 10 300 -400 100 L 50 50 1 1 B
+X PD7 11 300 -300 100 L 50 50 1 1 B
+X PB0 12 -500 400 100 R 50 50 1 1 B
+X PB1 13 -500 300 100 R 50 50 1 1 B
+X PB2 14 -500 200 100 R 50 50 1 1 B
+X PB3 15 -500 100 100 R 50 50 1 1 B
+X PB4 16 -500 0 100 R 50 50 1 1 B
+X PB5 17 -500 -100 100 R 50 50 1 1 B
+X AVCC 18 100 600 100 D 50 50 1 1 W
+X PE2 19 300 0 100 L 50 50 1 1 B
+X PD4 2 300 -600 100 L 50 50 1 1 B
+X AREF 20 -500 -1200 100 R 50 50 1 1 I
+X GND 21 100 -1400 100 U 50 50 1 1 W
+X PE3 22 300 100 100 L 50 50 1 1 B
+X PC0 23 -500 -400 100 R 50 50 1 1 B
+X PC1 24 -500 -500 100 R 50 50 1 1 B
+X PC2 25 -500 -600 100 R 50 50 1 1 B
+X PC3 26 -500 -700 100 R 50 50 1 1 B
+X PC4 27 -500 -800 100 R 50 50 1 1 B
+X PC5 28 -500 -900 100 R 50 50 1 1 B
+X PC6 29 -500 -1000 100 R 50 50 1 1 B
+X PE0 3 300 -200 100 L 50 50 1 1 B
+X PD0 30 300 -1000 100 L 50 50 1 1 B
+X PD1 31 300 -900 100 L 50 50 1 1 B
+X PD2 32 300 -800 100 L 50 50 1 1 B
+X VCC 4 0 600 100 D 50 50 1 1 W
+X GND 5 0 -1400 100 U 50 50 1 1 W
+X PE1 6 300 -100 100 L 50 50 1 1 B
+X PB6 7 -500 -200 100 R 50 50 1 1 B
+X PB7 8 -500 -300 100 R 50 50 1 1 B
+X PD5 9 300 -500 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# dk_LED-Indication-Discrete_151033RS03000
+#
+DEF dk_LED-Indication-Discrete_151033RS03000 D 0 0 Y Y 1 F N
+F0 "D" -150 150 60 H V C CNN
+F1 "dk_LED-Indication-Discrete_151033RS03000" 0 -150 60 H V C CNN
+F2 "digikey-footprints:LED_3mm_Radial" 200 200 60 H I L CNN
+F3 "https://katalog.we-online.de/led/datasheet/151033RS03000.pdf" 200 300 60 H I L CNN
+F4 "732-5013-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "151033RS03000" 200 500 60 H I L CNN "MPN"
+F6 "Optoelectronics" 200 600 60 H I L CNN "Category"
+F7 "LED Indication - Discrete" 200 700 60 H I L CNN "Family"
+F8 "https://katalog.we-online.de/led/datasheet/151033RS03000.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "LED RED CLEAR 3MM ROUND T/H" 200 1000 60 H I L CNN "Description"
+F11 "Wurth Electronics Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 -25 150 -75 100 N
+P 2 0 1 0 0 50 0 -50 N
+P 2 0 1 0 25 125 -25 75 N
+P 3 0 1 0 -50 150 -25 150 -25 125 N
+P 3 0 1 0 0 125 25 125 25 100 N
+P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Rectangular-Connectors-Headers-Male-Pins_B2B-XH-A_LF__SN_
+#
+DEF dk_Rectangular-Connectors-Headers-Male-Pins_B2B-XH-A_LF__SN_ J 0 40 Y Y 1 F N
+F0 "J" -100 -50 50 H V R CNN
+F1 "dk_Rectangular-Connectors-Headers-Male-Pins_B2B-XH-A_LF__SN_" 50 -150 50 H V C CNN
+F2 "digikey-footprints:PinHeader_1x2_P2.5mm_Drill1.1mm" 200 200 60 H I L CNN
+F3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" 200 300 60 H I L CNN
+F4 "455-2247-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "B2B-XH-A(LF)(SN)" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Rectangular Connectors - Headers, Male Pins" 200 700 60 H I L CNN "Family"
+F8 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/jst-sales-america-inc/B2B-XH-A(LF)(SN)/455-2247-ND/1651045" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN HEADER VERT 2POS 2.5MM" 200 1000 60 H I L CNN "Description"
+F11 "JST Sales America Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -50 0 150 -100 1 1 0 f
+S -10 -45 10 -65 1 1 0 F
+S 90 -45 110 -65 1 1 0 F
+X ~ 1 0 100 100 D 50 50 1 1 P
+X ~ 2 100 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Transistors-FETs-MOSFETs-Single_IRLML6344TRPBF
+#
+DEF dk_Transistors-FETs-MOSFETs-Single_IRLML6344TRPBF Q 0 0 Y Y 1 F N
+F0 "Q" -106 143 60 H V R CNN
+F1 "dk_Transistors-FETs-MOSFETs-Single_IRLML6344TRPBF" 136 0 60 V V C CNN
+F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
+F3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" 200 300 60 H I L CNN
+F4 "IRLML6344TRPBFCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "IRLML6344TRPBF" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - FETs, MOSFETs - Single" 200 700 60 H I L CNN "Family"
+F8 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "MOSFET N-CH 30V 5A SOT23" 200 1000 60 H I L CNN "Description"
+F11 "Infineon Technologies" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 20 20 20 N
+P 4 1 1 0 -100 0 -70 20 -70 -20 -100 0 F
+P 4 1 1 0 40 20 20 -10 60 -10 40 20 F
+X G 1 -300 -100 100 R 50 50 1 1 B
+X S 2 0 -200 100 U 50 50 1 1 B
+X D 3 0 200 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
