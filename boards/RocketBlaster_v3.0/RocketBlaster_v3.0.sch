@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L dk_Embedded-Microcontrollers:ATMEGA328PB-AU U1
+L RocketBlaster_v3.0-rescue:ATMEGA328PB-AU-dk_Embedded-Microcontrollers U1
 U 1 1 5E2652CB
 P 5350 2500
 F 0 "U1" H 5250 3303 60  0000 C CNN
@@ -34,7 +34,7 @@ F 12 "Active" H 5550 3700 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Rectangular-Connectors-Headers-Male-Pins:B2B-XH-A_LF__SN_ J1
+L RocketBlaster_v3.0-rescue:B2B-XH-A_LF__SN_-dk_Rectangular-Connectors-Headers-Male-Pins J1
 U 1 1 5E268083
 P 1550 1700
 F 0 "J1" V 1728 1754 50  0000 L CNN
@@ -54,7 +54,7 @@ F 12 "Active" H 1750 2900 60  0001 L CNN "Status"
 	0    1    1    0   
 $EndComp
 $Comp
-L dk_LED-Indication-Discrete:151033RS03000 L1
+L RocketBlaster_v3.0-rescue:151033RS03000-dk_LED-Indication-Discrete L1
 U 1 1 5E269ADF
 P 2150 5950
 F 0 "L1" V 2153 5862 60  0000 R CNN
@@ -74,7 +74,7 @@ F 12 "Active" H 2350 7150 60  0001 L CNN "Status"
 	-1   0    0    1   
 $EndComp
 $Comp
-L dk_LED-Indication-Discrete:151033RS03000 L2
+L RocketBlaster_v3.0-rescue:151033RS03000-dk_LED-Indication-Discrete L2
 U 1 1 5E26B28B
 P 2150 5300
 F 0 "L2" V 2153 5212 60  0000 R CNN
@@ -94,7 +94,7 @@ F 12 "Active" H 2350 6500 60  0001 L CNN "Status"
 	-1   0    0    1   
 $EndComp
 $Comp
-L dk_LED-Indication-Discrete:151033RS03000 L3
+L RocketBlaster_v3.0-rescue:151033RS03000-dk_LED-Indication-Discrete L3
 U 1 1 5E26CE74
 P 2150 4650
 F 0 "L3" V 2153 4562 60  0000 R CNN
@@ -114,7 +114,7 @@ F 12 "Active" H 2350 5850 60  0001 L CNN "Status"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LM7805MPX_NOPB:LM7805MPX_NOPB U2
+L RocketBlaster_v3.0-rescue:LM7805MPX_NOPB-LM7805MPX_NOPB U2
 U 1 1 5E26DC82
 P 7300 1650
 F 0 "U2" H 8200 2037 60  0000 C CNN
@@ -125,7 +125,7 @@ F 3 "" H 7300 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Transistors-FETs-MOSFETs-Single:IRLML6344TRPBF Q1
+L RocketBlaster_v3.0-rescue:IRLML6344TRPBF-dk_Transistors-FETs-MOSFETs-Single Q1
 U 1 1 5E273C51
 P 7400 5150
 F 0 "Q1" H 7508 5203 60  0000 L CNN
@@ -200,7 +200,7 @@ F 3 "~" H 6300 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DFR0299:DFR0299 U3
+L RocketBlaster_v3.0-rescue:DFR0299-DFR0299 U3
 U 1 1 5E279048
 P 9350 3500
 F 0 "U3" H 9350 4367 50  0000 C CNN
@@ -216,7 +216,7 @@ F 8 "DFRobot" H 9350 3500 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Diodes-Rectifiers-Single:S1G D1
+L RocketBlaster_v3.0-rescue:S1G-dk_Diodes-Rectifiers-Single D1
 U 1 1 5E28151C
 P 6950 4550
 F 0 "D1" H 6950 4787 60  0000 C CNN
@@ -415,7 +415,7 @@ Wire Wire Line
 Text GLabel 4200 1300 2    50   Input ~ 0
 VREG
 $Comp
-L dk_Rectangular-Connectors-Headers-Male-Pins:B2B-XH-A_LF__SN_ J2
+L RocketBlaster_v3.0-rescue:B2B-XH-A_LF__SN_-dk_Rectangular-Connectors-Headers-Male-Pins J2
 U 1 1 5E29C425
 P 1550 2100
 F 0 "J2" V 1728 2154 50  0000 L CNN
@@ -481,7 +481,7 @@ Wire Wire Line
 Text GLabel 1900 2200 2    50   Input ~ 0
 SW_ARM
 $Comp
-L dk_Rectangular-Connectors-Headers-Male-Pins:B2B-XH-A_LF__SN_ J3
+L RocketBlaster_v3.0-rescue:B2B-XH-A_LF__SN_-dk_Rectangular-Connectors-Headers-Male-Pins J3
 U 1 1 5E2B930D
 P 1550 2500
 F 0 "J3" V 1728 2554 50  0000 L CNN
@@ -503,7 +503,7 @@ $EndComp
 Text GLabel 1900 2600 2    50   Input ~ 0
 SW_GO
 $Comp
-L dk_Rectangular-Connectors-Headers-Male-Pins:B2B-XH-A_LF__SN_ J4
+L RocketBlaster_v3.0-rescue:B2B-XH-A_LF__SN_-dk_Rectangular-Connectors-Headers-Male-Pins J4
 U 1 1 5E2BA1C6
 P 4050 4750
 F 0 "J4" V 4228 4804 50  0000 L CNN
@@ -620,7 +620,7 @@ VREG
 Text GLabel 4750 2100 0    50   Input ~ 0
 TRG
 $Comp
-L dk_Rectangular-Connectors-Headers-Male-Pins:B2B-XH-A_LF__SN_ J5
+L RocketBlaster_v3.0-rescue:B2B-XH-A_LF__SN_-dk_Rectangular-Connectors-Headers-Male-Pins J5
 U 1 1 5E3007CC
 P 7300 4500
 F 0 "J5" V 7350 4300 50  0000 L CNN
