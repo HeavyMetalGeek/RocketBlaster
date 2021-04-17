@@ -1,7 +1,7 @@
 # RocketBlaster - PCB Design
 
-<img src="../images/RocketBlaster_Top.jpg" width=400>
-<img src="../images/RocketBlaster_Bottom.jpg" width=400>
+<img src="../../images/RocketBlaster_Top.jpg" width=400>
+<img src="../../images/RocketBlaster_Bottom.jpg" width=400>
 
 ### Design Parameters:
 * Small form factor to reduce cost
